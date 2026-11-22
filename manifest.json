@@ -38,6 +38,49 @@
       ],
       "ast": [
         "aggregate/ast/c2b517fbc900ed837cc4dfc3253de630beab0227/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c2b517fbc900ed837cc4dfc3253de630beab0227.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "getopts",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "getopts",
+          "githubUrl": "https://github.com/rust-lang/getopts",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "term",
+          "ecosystem": "CARGO",
+          "version": "0.7",
+          "githubOrg": "Stebalien",
+          "githubRepo": "term",
+          "githubUrl": "https://github.com/Stebalien/term",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "num_cpus",
+          "ecosystem": "CARGO",
+          "version": "1.13.0",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "num_cpus",
+          "githubCommit": "b347731fc0c008dbb88b406c595b1e644458fffe",
+          "githubTag": "v1.13.0",
+          "githubUrl": "https://github.com/seanmonstar/num_cpus",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cfg-if",
+          "ecosystem": "CARGO",
+          "version": "1.0.0",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cfg-if",
+          "githubCommit": "e60fa1efeab0ec6e90c50d93ec526e1410459c23",
+          "githubTag": "1.0.0",
+          "githubUrl": "https://github.com/rust-lang/cfg-if",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
